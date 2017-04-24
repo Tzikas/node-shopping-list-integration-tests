@@ -1,2 +1,9 @@
-nguage: node_js
+language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: SU/PuhKyd4TFU2IDT+ylyBMwdhwbrJD1tXpYsAAnn0nt4YTRA0+AAVzDHiBmZTDRg1ncXbC+S8XBKttBowKt1TSrclMYZiqlR4CLsn0bDLmtKyiqWM6F4J7AqXymTueMFziPv0NR8VSolKRstQMMHY4Q1RHLw7JXbfdkjK1zbWgsahzXZWRETbungvE4JMZnvAvJJBJeGhTcLkIJuAHobTQIrPIrqvfhm9lwRT7oR0YSsyZDeP+DVEN/XZ0le9qWVibMSfMWFebRxteORXUtg9Dvlp/rsnBCICm1OJ0ocNsGyNfGUAnu6nglRhi7Aawa/hH5dZfZ9PRKS8mr1DkgN1MF/xjiWiW62qEoymVqEXWayt3zkZGQyQcBzN8aA+9uuylO5aMteeiWvgnY6uWtoWGa9067nRy7AMWbqbNP5Gw+mgjQZrgWZYfDeumtuXFD+MgU4uzdrJRuAo1kHX39I41bjTW2d9lpIwEEeYKSLtms6x7CqQsyPR5YKv7W/OzMX/FO7c6uOANomoD8MEWuMnBPVU3izt7Z4dA7f+8gvbqbdqi/9cSH4Fk4l1+mrGMjmdh7xCouQa72rF404b05+Le48J54fVmGm2YH8Zt1jKfEJaI6fr5mjiCoycKLXP4rvD9IOWypRxNDG/xA3k/8X0y/VRrp0iizvyrFl9/nJDI=
+  app: agile-bastion-92968
+  on:
+    repo: Tzikas/node-shopping-list-integration-tests
